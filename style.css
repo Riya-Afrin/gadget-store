@@ -1,0 +1,41 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+ .container{
+    margin-bottom: 25px;
+ }
+
+ /* -----smartphones-------- */
+.title{
+    margin-bottom: 10px;
+}
+ .card{
+    border-radius: 15px;
+    border-style: none;
+    box-shadow: 5px 5px 10px lightgray;
+ }
+.see-all{
+    border-style: none;
+    background-color: white;
+    color: orangered;
+    font-weight: 600;
+}
+.card-title{
+    font-weight: 600;
+}
+.card-text{
+    color: gray;
+}
+.price{
+    font-weight: 600;
+    color: orangered;
+}
+.buy{
+    border-radius: 9px;
+    background-color: black;
+    color: white;
+    padding: 7px 15px;
+    margin-top: 8px;
+}

@@ -1,52 +1,82 @@
-body{
-    padding: 0;
-    margin: 0;
-    font-family: 'Hanken Grotesk', sans-serif;
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Hanken Grotesk", sans-serif;
 }
- .container{
-    margin-bottom: 40px;
- }
- /* -------slider------- */
-.slider{
-    background-image: url(images/bg-2.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 25vh;
+.container {
+  margin-bottom: 40px;
+}
+/* -------slider------- */
+.slider {
+  background-image: url(images/bg-2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 25vh;
+}
+.carousel-item {
+  padding: 30px 50px;
+}
+/* -----smartphones & laptops-------- */
+.title {
+  margin-bottom: 20px;
+}
+
+.card {
+  border-radius: 15px;
+  border-style: none;
+  box-shadow: 5px 5px 10px lightgray;
+}
+.card img {
+  padding: 15px;
+}
+.see-all {
+  border-style: none;
+  background-color: white;
+  color: orangered;
+  font-weight: 600;
+}
+.card-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.card-text {
+  color: gray;
+}
+.price {
+  font-weight: 600;
+  color: orangered;
+}
+.buy {
+  border-radius: 9px;
+  background-color: black;
+  color: white;
+  padding: 7px 15px;
+  margin-top: 8px;
+}
+/* -----category-- */
+.items {
+  max-width: auto;
+  box-shadow: 5px 5px 15px lightgray;
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+.cat {
+  position: relative;
+}
+.cat::after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 5px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, orange 40%, orangered 100%);
+  bottom: 0;
+  transition: 0.5s;
 
 }
-.carousel-item{
-    padding: 30px 50px;
-}
- /* -----smartphones-------- */
-.title{
-    margin-bottom: 20px;
-}
- .card{
-    border-radius: 15px;
-    border-style: none;
-    box-shadow: 5px 5px 10px lightgray;
- }
-.see-all{
-    border-style: none;
-    background-color: white;
-    color: orangered;
-    font-weight: 600;
-}
-.card-title{
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-.card-text{
-    color: gray;
-}
-.price{
-    font-weight: 600;
-    color: orangered;
-}
-.buy{
-    border-radius: 9px;
-    background-color: black;
-    color: white;
-    padding: 7px 15px;
-    margin-top: 8px;
+/* --------footer--------- */
+footer {
+  color: lightgray;
+  text-align: center;
 }
